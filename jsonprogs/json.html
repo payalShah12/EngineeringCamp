@@ -1,0 +1,71 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>JSON</title>
+        <script type="text/javascript" src="people.json"></script>
+    </head>
+    <body>
+        <ul id="people"></ul>
+        <script>
+         
+                var person = {
+                    name : "Payal",
+                    age : 24,
+                   /* email : function(){
+                        return 'paayalshah93@gmail.com'; 
+                    }, */
+                    address : {
+                        street : "Mindtree Ltd.",
+                        city : "Bhubneshwar"
+                    },
+                    qualification : ["BCA","MCA"]
+                }
+               // person=JSON.stringify(person); //to convert to JSON
+              //  person = JSON.parse(person); // to convert back to an Object
+              var people = [
+                  {
+                      name : "Payal",
+                      age : 24
+                  },
+                  {
+                      name : "Ayushi",
+                      age : 24
+                  },
+                  {
+                      name : "Aditya",
+                      age : 20
+                  }
+              ]
+              console.log(people[1]);
+              console.log(person);
+            console.log(person.address.street);
+            console.log(person.qualification[1]);
+            var output='';
+            for(var i=0;i<people.length;i++)
+            {
+                //console.log(people[i]);
+                output+='<li>'+people[i].name+'  '+people[i].age +'</li>';
+            }
+            document.getElementById('people').innerHTML = output;
+            
+           /* var xhttp=new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if(this.readyState==4 && this.status==200){
+                    //4 is to indicate that the response has been captured & status 200 indicates everything went fine.
+                //    document.getElementById("demo").innerHTML=xhttp.responseText;
+                console.log(xhttp.responseText);
+            }
+        };
+        
+                    xhttp.open("GET","people.json",true);
+                    xhttp.send(); */
+ var mydata = JSON.parse(people);
+ alert(mydata[0].name);
+alert(mydata[0].age);
+alert(mydata[1].name);
+alert(mydata[1].age);
+            
+            </script>
+    </body>
+</html>
+

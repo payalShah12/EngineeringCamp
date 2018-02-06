@@ -1,0 +1,44 @@
+.page-header{
+    margin-top:0;
+
+}
+.panel-body{
+    padding-top: 0;
+}
+.site-footer{
+    background-color:darkred;
+    color: ivory;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.bottom-footer{
+    border-top: 1px solid #b2b2b2;
+margin-top:10px;
+padding-top:10px;
+color:#b2b2b2;
+}
+.footer-nav
+{
+    text-align:right;
+    list-style:none;
+    padding-bottom:  10px;
+}
+.footer-nav li{
+    display: inline;
+    
+   
+}
+.footer-nav li:not(:first-child):before
+{
+    content: '|';
+ padding:0px 10px;
+}
+.footer-nav a{
+    color: #b2b2b2;
+}
+.footer-nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}

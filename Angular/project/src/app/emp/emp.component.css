@@ -1,0 +1,13 @@
+h1{
+    text-align:center;
+    color:pink 
+}
+span{
+    color:blue
+}
+div{
+    font-family: Georgia, Serif;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration:underline
+}

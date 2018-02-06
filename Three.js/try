@@ -1,0 +1,3 @@
+var floorGeometry = new THREE.CubeGeometry(10,1,10);
+var floorMaterial = new THREE.MeshLambertMaterial( { map : new THREE.TextureLoader().load('img''images/wall2.jpeg'), side : THREE.BackSide } );
+var floorCube

@@ -1,0 +1,67 @@
+div.transparent-card{
+       background-color:rgba(0,0,0,0) !important;
+       /*border:none !important; */
+    }
+p.card-text{
+    color:black;
+}
+input.transparent-input{
+       background-color:rgba(0,0,0,0) !important;
+       border:none !important; 
+    }
+.page-header{
+    margin-top:0;
+    background : crimson;
+    position : fixed;
+    position: absolute;
+    left : 800px;
+    font-family: Georgia, Serif;
+    font-weight:bold;
+    font-style: italic;
+}
+.panel-body{
+    padding-top: 0;
+}
+.site-footer{
+    background-color:darkred;
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+   /*position: fixed;*/
+}
+.bottom-footer{
+    border-top: 1px solid #b2b2b2;
+margin-top:10px;
+padding-top:10px;
+color:#b2b2b2;
+}
+.footer-nav
+{
+    text-align:right;
+    list-style:none;
+    padding-bottom:  10px;
+}
+.footer-nav li{
+    display: inline;
+    
+   
+}
+.footer-nav li:not(:first-child):before
+{
+ padding:0px 10px;
+}
+.footer-nav a{
+    color: #b2b2b2;
+}
+.footer-nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  /*align-content: center;*/
+}

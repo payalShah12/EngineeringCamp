@@ -1,0 +1,20 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "main": "./entry.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "moment": "^2.19.3",
+    "rxjs": "^5.5.5"
+  },
+  "description": ""
+}

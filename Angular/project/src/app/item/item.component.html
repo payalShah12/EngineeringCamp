@@ -1,0 +1,49 @@
+  <br><br>
+  <div *ngIf="formType=='item'">
+    <h1>
+      <u><i>Item Form</i></u>
+    </h1>
+    <hr width="800" height="800">
+    <span><marquee><i><b>Enter the Stock Details...</b></i></marquee></span>
+    <div ng-app="" ng-init="name='null'">
+      <fieldset>
+        <table class="table" colspan="20">
+          <tr>
+            <td>Stock ID </td>
+            <td><input [(ngModel)]="sid" class="form-control" type="text"></td>
+          </tr>
+          <tr>
+            <td>Stock Name </td>
+            <td><input [(ngModel)]="sname" class="form-control" type="text"></td>
+          </tr>
+          <tr>
+            <td>Stock Price</td>
+            <td><input [(ngModel)]="price" class="form-control" type="text"></td>
+          </tr>
+          <tr>
+            <td>Quantity</td>
+            <td><input [(ngModel)]="qty" class="form-control" type="text"></td>
+          </tr>
+          <tr>
+            <td>
+              <tr>
+                <td colspan="2" align="center"><input class="btn btn-primary mr-4" type="button" (click)="setItem()" value="SUBMIT DETAILS"></td>
+              </tr>
+        </table>
+        <br><br>
+      </fieldset>
+    </div>
+      <table class="table table-striped" cellpadding="10">
+        <tr style="color:red;">
+          <th>Stock ID</th>
+          <th>Item Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <tr>
+            <th>{{sid}}</th>
+            <th>{{sname}}</th>
+            <th>{{price}}</th>
+            <th>{{qty}}</th>
+          </tr>
+      </table>
+    </div>

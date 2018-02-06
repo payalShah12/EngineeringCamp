@@ -1,0 +1,19 @@
+h1{
+    text-align:center;
+    color:pink
+}
+div{
+    font-family: Georgia, Serif;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration:underline
+}
+span{
+    color:red;
+}
+fieldset{
+    color:blue
+}
+td{
+    text-decoration: none;
+}
